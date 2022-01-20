@@ -1,0 +1,22 @@
+//This is the first c++ program I am creating on atom
+//It will hopefully incorporate basic things such as for loops, while loops, if/else, variables, and more.
+//Certain things may need to be included/excluded compares to JavaScript as C++ is "partially" object-oriented - FRR
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+  for(int z=5; z > 1; z--)}
+    string lastBook;
+
+    cout << "What is the last book you read?";
+    cin >> lastBook;
+    cout << "\nThe last book you read was " << lastBook;
+    if (lastBook == "Atlas Shrugged by Ayn Rand") {
+      cout << "\nThat is the same one that I just finished, nice."
+    } else {
+      cout << "\nSounds interesting."
+    }
+  }
+
+  return 0;
+}
